@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.card{
+    
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 15px;
+    
+    
+}
+
+.img{
+    width: 50px;
+    padding-top: 30px;
+    margin-left: -5px;
+}
+.cardnum{
+    font-size: 25px;
+    font-weight: 200px;
+    margin-top: 5px;
+    color: aliceblue;
+}
+.cardname{
+    color: aliceblue;
+    font: size 20px; ;
+    font-weight: 100px;
+    margin-top: 1px;
+    font-family: monospace;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-top: 10px;
+    
+}
+.aa{
+    font-weight: bold;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 9px;
+    margin-top: 10;
+   
+}
+
+.visa{
+    width: 100px;
+    height: 35px;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+
+.card:nth-child(1){
+    background-color: #8e44ad;
+}
+.card:nth-child(2){
+    background-color: #009432;
+}
+.card:nth-child(3){
+    background-color: #0652DD;
+}
+.card:nth-child(4){
+  background-color: #161617;
+}
